@@ -116,23 +116,23 @@ h2 {
   text-align: center;
 }
 
-.card {
+.card-skills {
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  height: 176px;
+  height: 174px;
   width: 176px;
   padding: 16px;
 }
 
-.card > img {
+.card-skills > img {
   height: 37px;
   width: 24px;
   object-fit: contain;
 }
 
-.card > p {
+.card-skills > p {
   font-weight: bold;
   font-size: 1em;
   color: #464646;
@@ -140,5 +140,90 @@ h2 {
 
 .card-principal {
   display: flex;
-  gap:1rem;
+  gap: 1rem;
+}
+
+.section-foor {
+  height: 244px;
+  padding: 0px 150px 0px 150px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.section-foor > h2 {
+  text-align: center;
+}
+.card-hobbies {
+  height: 174px;
+  width: 176px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 16px;
+}
+
+.card-hobbies > img {
+  height: 32px;
+  width: 32px;
+  object-fit: contain;
+}
+
+.card-hobbies > p {
+  font-size: 1em;
+  font-weight: bold;
+  color: #464646;
+  padding-top: 8px;
+}
+
+.card-principal-hobbies {
+  display: flex;
+  gap: 1rem;
+}
+
+.section-five {
+  background-color: #eaf2fd;
+  height: 581px;
+  padding: 0px 150px 0px 150px;
+}
+
+.section-five > h2 {
+  text-align: center;
+  margin: 82px 0px 32px 0px;
+}
+
+.card-formacao-primario {
+  background-color: #ffffff;
+  height: 286px;
+  width: 368px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.card-formacao-primario > img {
+  height: 130px;
+  width: 190px;
+}
+
+.card-formacao-secundario > h3 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #464646;
+  margin: 8px 0px 8px 0px;
+}
+
+.card-formacaao-principal {
+  display: flex;
+  flex-direction: column;
+  width: 1136px;
+  height: 347px;
+  padding: 0px 16px 0px 16px;
+}
+.card-formacao {
+  display: flex;
+  justify-content: center;
+  padding: 0px 150px 0px 150px;
+  gap: 1rem;
 }
